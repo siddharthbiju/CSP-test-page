@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>CSP test page with jquery</title>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'report-sample' 'nonce-123456' 'self'; style-src 'report-sample' 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; font-src 'self'; frame-src 'self'; img-src 'self'; manifest-src 'self'; media-src 'self';">
+        <!-- Nounce needs to be random!!! -->
+        <script nonce="123456" src="jquery-3.6.1.min.js" ></script>
+    </head>
+    <body>
+        <h1>hi</h1>
+    </body>
+</html>
